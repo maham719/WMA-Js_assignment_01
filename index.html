@@ -4,9 +4,65 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Javascript Alert!</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Kaushan+Script&family=Moon+Dance&family=Poetsen+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Public+Sans:ital,wght@0,100..900;1,100..900&family=Quicksand:wght@300..700&family=Rancho&family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Syne:wght@400..800&display=swap');
+        *{
+            margin: 0;
+            padding: 0;
+        font-family: "Poppins", sans-serif;
+  text-decoration: none;
+        }
+        body{
+            background-image: url("/pxfuel\ \(1\).jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position:top;
+        }
+        .main{
+            width: 60%;
+            height: 400px;
+         
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background:transparent;
+            backdrop-filter: blur(5px);
+            margin: 5rem  auto;
+            box-shadow: 2px 2px 25px 4px rgba(0, 0, 0, 0.372);
+        }
+        .box{
+            width: 100%;
+            height: 200px;
+            color:white;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-around;
+        }
+        h1{
+            font-size: 60px;
+            margin: auto;
+            text-shadow:  2px 5px 2px rgba(0, 0, 0, 0.414);
+        }
+        a{
+         color: white;
+
+            text-decoration: underline;
+            text-decoration-thickness: 4px;
+            font-size: 25px;
+            text-shadow:  4px 4px 5px rgba(0, 0, 0, 0.376);
+
+        }
+        
+    </style>
 </head>
 <body>
-    
+    <div class="main">
+        <div class="box">
+    <h1>chapter one Alerts!</h1>
+    <a href="/variableForString.html " target="_blank">chapter two: Variables for strings</a>
+    </div>
+    </div>
 </body>
 <script type="text/javascript">
     // Write a script to greet your website visitor using JS alert
@@ -25,5 +81,7 @@ alert("Welcome to JS land \n Happy Coding!")
 // Write a script to display following messages in sequence:
 alert("Welcome to JS land")
 alert("Happy Coding!")
+
+
 </script>
 </html>
