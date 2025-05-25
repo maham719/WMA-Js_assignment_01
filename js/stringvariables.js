@@ -47,3 +47,4 @@ document.write("<h1>Yah! i can write HTML content through javascript</h1>");
 
 var sym="▬▬▬▬▬▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬▬▬▬▬▬";
 alert(sym);
+document.write(sym);
